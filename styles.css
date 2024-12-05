@@ -6,7 +6,14 @@
     --color-slate-500: hsl(216, 15%, 48%);
     --color-slate-900: hsl(218, 44%, 22%);
 }
-
+header{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: var(--color-slate-300);
     margin: 0; /* Remove a margem padrão */
@@ -17,15 +24,28 @@ body {
 }
 
 .box {
-    width: 52%; /* Aumenta a largura da caixa em 30% (de 40% para 52%) */
-    max-width: 260px; /* Aumenta o max-width em 30% (de 200px para 260px) */
-    padding: 26px; /* Aumenta o padding (espaçamento interno) em 30% */
+    width: 62%; /* Aumenta a largura da caixa em 30% (de 40% para 52%) */
+    max-width: 360px; /* Aumenta o max-width em 30% (de 200px para 260px) */
+    padding: 20px; /* Aumenta o padding (espaçamento interno) em 30% */
     background-color: var(--color-white); /* Cor de fundo */
     color: var(--color-slate-900); /* Cor do texto */
     border: 2px;
     border-radius: 14px; /* Bordas arredondadas */
     text-align: center; /* Centraliza o texto na caixa */
 }
+
+a {
+        text-decoration: none;
+        color: #050000;
+        padding: 5px 10px;
+        border-radius: 4px;
+      }
+      
+      a:hover {
+        background-color: var(--color-slate-500); 
+        color: var(--color-white);
+      }
+      
 
 .img-qr {
     max-width: 100%;
