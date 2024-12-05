@@ -17,12 +17,12 @@ body {
 }
 
 .box {
-    width: 40%; /* Largura da caixa, em relação ao tamanho do contêiner */
-    max-width: 200px; /* Largura máxima da caixa */
-    padding: 20px; /* Espaçamento interno */
+    width: 52%; /* Aumenta a largura da caixa em 30% (de 40% para 52%) */
+    max-width: 260px; /* Aumenta o max-width em 30% (de 200px para 260px) */
+    padding: 26px; /* Aumenta o padding (espaçamento interno) em 30% */
     background-color: var(--color-white); /* Cor de fundo */
     color: var(--color-slate-900); /* Cor do texto */
-    border: 2px ; 
+    border: 2px;
     border-radius: 14px; /* Bordas arredondadas */
     text-align: center; /* Centraliza o texto na caixa */
 }
@@ -35,20 +35,20 @@ body {
 .first-text {
     font-family: "Outfit";
     color: var(--color-slate-900);
-    font-size: 15px;
+    font-size: 19.5px; /* Aumenta a fonte em 30% */
     font-weight: 700;
 }
 
 .second-text {
     color: var(--color-slate-500);
-    font-size: 12px;
+    font-size: 15.6px; /* Aumenta a fonte em 30% */
     font-weight: 400;
     text-align: center;
 }
 
 .info {
     color: var(--color-slate-900);
-    font-size: 12px;
+    font-size: 15.6px; /* Aumenta a fonte em 30% */
     font-weight: 400;
 }
 
