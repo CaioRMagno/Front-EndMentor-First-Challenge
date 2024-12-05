@@ -1,58 +1,64 @@
 @import url("https://fonts.google.com/specimen/Outfit");
 
-
 :root {
     --color-white: hsl(0, 0%, 100%);
     --color-slate-300: hsl(212, 45%, 89%);
     --color-slate-500: hsl(216, 15%, 48%);
     --color-slate-900: hsl(218, 44%, 22%);
-  }
-  
-
-body{
-    background-color: var(--color-slate-300);
 }
-.box{
+
+body {
+    background-color: var(--color-slate-300);
+    margin: 0; /* Remove a margem padrão */
+    height: 100vh; /* Garante que o body ocupe a altura total da tela */
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.box {
     width: 40%; /* Largura da caixa, em relação ao tamanho do contêiner */
     max-width: 200px; /* Largura máxima da caixa */
-    margin: 20px auto; /* Centraliza a caixa horizontalmente */
     padding: 20px; /* Espaçamento interno */
     background-color: var(--color-white); /* Cor de fundo */
     color: var(--color-slate-900); /* Cor do texto */
-    border: 2px ; /* Borda ao redor da caixa */
+    border: 2px ; 
     border-radius: 14px; /* Bordas arredondadas */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
     text-align: center; /* Centraliza o texto na caixa */
 }
-.img-qr{
+
+.img-qr {
     max-width: 100%;
     border-radius: 8px;
-
 }
-.first-text{
+
+.first-text {
     font-family: "Outfit";
     color: var(--color-slate-900);
     font-size: 15px;
     font-weight: 700;
 }
-.second-text{
+
+.second-text {
     color: var(--color-slate-500);
     font-size: 12px;
     font-weight: 400;
     text-align: center;
 }
-.info{
-    color: var(--color-white);
+
+.info {
+    color: var(--color-slate-900);
     font-size: 12px;
     font-weight: 400;
 }
 
-.container{
+.container {
     padding: 16px;
     max-width: 100%;
 }
-@media(min-width:1440px){
-    .container{
+
+@media(min-width: 1440px) {
+    .container {
         max-width: 1440px;
         margin: 0 auto;
         padding: 32px;
