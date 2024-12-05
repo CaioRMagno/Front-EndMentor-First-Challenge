@@ -16,22 +16,21 @@ main{
 }
 body {
     background-color: var(--color-slate-300);
-    margin: 0; /* Remove a margem padrão */
-    height: 100vh; /* Garante que o body ocupe a altura total da tela */
-    display: flex; /* Ativa o Flexbox */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
-    width: 62%; /* Aumenta a largura da caixa em 30% (de 40% para 52%) */
-    max-width: 360px; /* Aumenta o max-width em 30% (de 200px para 260px) */
-    padding: 20px; /* Aumenta o padding (espaçamento interno) em 30% */
-    background-color: var(--color-white); /* Cor de fundo */
-    color: var(--color-slate-900); /* Cor do texto */
+    width: 70%;
+    max-width: 360px;
+    padding: 20px;
+    background-color: var(--color-white);
+    color: var(--color-slate-900);
     border: 2px;
-    border-radius: 14px; /* Bordas arredondadas */
-    text-align: center; /* Centraliza o texto na caixa */
+    border-radius: 14px;
+    text-align: center;
 }
 
 a {
